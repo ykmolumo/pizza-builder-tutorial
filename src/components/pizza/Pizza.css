@@ -597,3 +597,21 @@
   top: 620px;
   left: 660px;
 }
+import React, { Component } from "react";
+import "./Pizza.css";
+..... Rest of the code .....
+import CustomChatbot from "./chatbot/CustomChatbot";
+class Pizza extends Component {
+..... Rest of the code .....
+   
+   return (
+      <div>
+        <div className="container mt-5">
+           ...... Rest of the code .....
+           <CustomChatbot />
+        </div>
+      </div>
+    );
+  }
+}
+export default Pizza;
